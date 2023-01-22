@@ -16,10 +16,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
-              Darkyellow: "#FABE4C",
-              headerColor: "#363958",
-              headerBg: "#FFFBF0",
-              price: "#FABE4C",
+              pColor: "#777777",
             },
             fontFamily: {
               ManRope: ["Manrope", "sans-serif"],
@@ -32,19 +29,19 @@
   </head>
   <body>
     <!-- header -->
-    <header class="pt-16 pb-4">
+    <header class="pt-16 pb-4 mx-4 md:mx-0">
       <div class="container mx-auto">
-        <div class="md:flex items-center mx-4">
+        <div class="md:flex items-center">
           <div class="md:w-1/2">
             <h2 class="text-7xl text-stone-900 font-ManRope font-extrabold">
               It's good tea time at The Tea House
             </h2>
-            <p class="text-lg font-ManRope font-medium my-8">
+            <p class="text-lg font-ManRope font-medium my-8 text-pColor">
               Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
               Your Taste Buds.
             </p>
             <button
-              class="bg-gradient-to-r from-[#FF0000] to-[#FF8938] text-white text-xl font-bold px-5 py-4 rounded-lg"
+              class="bg-gradient-to-r from-[#FF0000] to-[#FF8938] text-white text-xl font-bold px-5 py-4 rounded-lg font-ManRope"
             >
               <a href="#">Explore More</a>
             </button>
@@ -61,7 +58,9 @@
                 <h4 class="text-stone-900 font-ManRope font-extrabold text-3xl">
                   5.00
                 </h4>
-                <p class="font-ManRope font-semibold">Trust Pilot Ratings</p>
+                <p class="font-ManRope font-semibold text-pColor">
+                  Trust Pilot Ratings
+                </p>
               </div>
             </div>
           </div>
@@ -69,5 +68,78 @@
       </div>
     </header>
     <!-- // end header -->
+    <!-- feature section -->
+    <section class="feature mt-36 mx-4 md:mx-0">
+      <div class="container mx-auto">
+        <div class="text-center mb-12 md:w-3/4 mx-auto">
+          <h2
+            class="text-3xl md:text-5xl text-stone-900 font-ManRope font-extrabold"
+          >
+            Our Featured Products
+          </h2>
+          <p class="text-pColor font-ManRope mt-5">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div
+            class="text-center bg-gradient-to-t from-[#FFFFFF] to-[#F4F4F4] p-8"
+          >
+            <img class="mx-auto" src="images/tea-2.png" alt="" />
+            <div class="mt-8">
+              <h3 class="text-stone-900 text-2xl font-extrabold font-ManRope">
+                Milk Tea
+              </h3>
+              <p class="text-pColor font-semibold mt-2.5 text-ManRope">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <div
+            class="text-center bg-gradient-to-t from-[#FFFFFF] to-[#F4F4F4] p-8"
+          >
+            <img class="mx-auto" src="images/tea-3.png" alt="" />
+            <div class="mt-8">
+              <h3 class="text-stone-900 text-2xl font-extrabold font-ManRope">
+                Milk Tea
+              </h3>
+              <p class="text-pColor font-semibold mt-2.5 text-ManRope">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <div
+            class="text-center bg-gradient-to-t from-[#FFFFFF] to-[#F4F4F4] p-8"
+          >
+            <img class="mx-auto" src="images/tea-1.png" alt="" />
+            <div class="mt-8">
+              <h3 class="text-stone-900 text-2xl font-extrabold font-ManRope">
+                Milk Tea
+              </h3>
+              <p class="text-pColor font-semibold mt-2.5 text-ManRope">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <div
+            class="text-center bg-gradient-to-t from-[#FFFFFF] to-[#F4F4F4] p-8"
+          >
+            <img class="mx-auto" src="images/tea-4.png" alt="" />
+            <div class="mt-8">
+              <h3 class="text-stone-900 text-2xl font-extrabold font-ManRope">
+                Milk Tea
+              </h3>
+              <p class="text-pColor font-semibold mt-2.5 text-ManRope">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // end feature section -->
   </body>
 </html>
